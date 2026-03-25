@@ -1,3 +1,4 @@
+# source("https://raw.githubusercontent.com/MAWULOLOALAGBO/mesfonctions/main/analyse_na.R") pour faire appele a ma sonction
 analyser_na <- function(df){
   nb_miss_val <- colSums(is.na(df))
   prop_miss_val <- round(colSums(is.na(df))/nrow(df),2)
