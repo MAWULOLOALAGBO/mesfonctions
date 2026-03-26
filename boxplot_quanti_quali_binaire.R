@@ -22,5 +22,3 @@ box_binaire <- function(df_num_et_cible, var_cible_binaire){
   
   return(boxp_list)
 }
-
-box_binaire(df_num_et_cible,"Outcome")
